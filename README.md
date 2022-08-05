@@ -1,5 +1,5 @@
 # AsteroidAttack
-assembly x86 game (for dosbox)
+assembly 8086 game (for dosbox)
 MADE BY ASHER EPSTEIN 
 
 
