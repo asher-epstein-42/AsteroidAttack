@@ -10,7 +10,6 @@
 macro draw_another_astroid x ;x -> x place of the astroid
 	
 	mov ax, x				;takes the seed for the function
-	mov ax,x
 	call draw_astorid 		;drawing the astorid
 					
 	
@@ -21,9 +20,9 @@ endm draw_another_astroid x
 	DATASEG
 
 	spaceship_size dw 20h			;spaceship lenth (how many pixels spaceship has in width)
-    spaceship_x dw 55h 				;original placement of the spaceship (x)
+    	spaceship_x dw 55h 			;original placement of the spaceship (x)
 	spaceship_y dw 0beh 			;original placement of the spaceship (y)
-	spaceship_velocity_x dw 06h 	;horizintal velocity of the spaceship
+	spaceship_velocity_x dw 06h 		;horizintal velocity of the spaceship
 
 	time_vrbl db 0 					;verible used when checking if time have changed 
 	time_seed dw ? 					;creates random seed for the x of the astroids
