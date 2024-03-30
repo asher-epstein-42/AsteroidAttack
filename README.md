@@ -2,6 +2,9 @@
 assembly 8086 game (for dosbox)
 MADE BY ASHER EPSTEIN 
 Welcome to Asteroid Attack! This assembly program is a simple game where the player controls a spaceship to dodge asteroids falling from the top of the screen.
+
+
+
 ![](https://github.com/asher-epstein-42/AsteroidAttack/blob/main/asteroid.gif)
 
 ## Prerequisites
